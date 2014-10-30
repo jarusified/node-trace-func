@@ -1,5 +1,4 @@
-#node-trace-func [![Build Status]
-===============
+#node-trace-func 
 
 A Function stack in node.js using JavaScriptStackTraceApi 
 
@@ -10,7 +9,7 @@ A Function stack in node.js using JavaScriptStackTraceApi
 # Example:
 
  ```js
- var stack = require('./index.js');
+ var stack = require('trace-func');
   foo();
   function foo() {
     bar();
@@ -25,6 +24,9 @@ A Function stack in node.js using JavaScriptStackTraceApi
     quux();
   }
   function quux(){
-    stack();
+    stack(); // call stack
   }
 ```
+# Output-format
+  Function Name  location  [row,column]
+

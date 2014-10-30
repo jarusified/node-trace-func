@@ -1,6 +1,6 @@
 {
 	"name":"trace-func",
-	"version":"0.0.1",
+	"version":"0.0.3",
 	"description":"A function Call stack in node.js using JavaScriptStackTrace Api ",
 	"repository":"jarusified/node-trace-func",
 	"author":{
@@ -22,7 +22,6 @@
 		"error"
 	],
 	"dependencies":{
-		"":""
 		
 	},
 	"devDependencies":{

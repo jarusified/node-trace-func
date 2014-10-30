@@ -1,0 +1,30 @@
+{
+	"name":"trace-func",
+	"version":"0.0.1",
+	"description":"A function Call stack in node.js using JavaScriptStackTrace Api ",
+	"repository":"jarusified/node-trace-func",
+	"author":{
+		"name":"suraj jarus",
+		"email":"jarus3001@gmail.com"
+	},
+	"engines":{
+		"node":">=0.10.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"function call",
+		"stack",
+		"call",
+		"stacktrace",
+		"errorlog",
+		"error"
+	],
+	"dependencies":{
+		"":""
+		
+	},
+	"devDependencies":{
+	}
+}

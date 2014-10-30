@@ -1,6 +1,6 @@
-module.exports = has_callback;
+module.exports = trace;
 
-function has_callback(){
+function trace(){
 	Error.prepareStackTrace = function(_, stack){ return stack; };
 	var err = new Error;
 	Error.captureStackTrace(err, arguments.callee);
